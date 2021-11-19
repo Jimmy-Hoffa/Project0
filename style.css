@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+/* google fonts*/
+
+/*global css* is used with the * */
+
+
+body{
+    background-image:url(Fjord.jpg);
+    background-size: cover;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    width: 80px;
+    float:left;
+    text-align: center;
+    border:1px solid black;
+    background-color: skyblue;
+    opacity: 0.7;
+    padding: 7px;
+    margin-left: 4px;
+
+}
+ul li a{text-decoration: none; color: brown;
+}
+.text{ background-color:greenyellow;}
+
+ul li:hover{background-color:greenyellow;}
+
+.search{
+    float:right;
+    padding-right: 7px;
+}
+
